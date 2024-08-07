@@ -61,12 +61,39 @@ body {
 }
 
 .button-black {
-    background-color: black;
+    background-color: #23272A;
     color: white;
 }
 
 .button-white {
     background-color: white;
-    color: black;
+    color: #23272A;
 }
+
+.Section1 {
+    background-color: white;
+    grid-area: Section-1;
+}
+
+.Section1 img {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.Section1 h1 {
+    text-align: left;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.Section1 p {
+    color: #23272A;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 3rem;
+}
+
+
     
