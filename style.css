@@ -12,12 +12,16 @@ body {
     "footer";
 }
 
+.Header-content{
+    grid-area: Header-content;
+}
+
 .Header-content h1 {
    font-family: "Luckiest Guy";
    text-align: left;
    font-size: 32px;
    margin-top: -28rem;
-   padding: 9px;
+   margin-left: 3rem;
    color: white;
    font-weight: bold;
 }
@@ -28,3 +32,41 @@ body {
     margin-left: -1rem;
     margin-top: -1rem;
 }
+
+.Header-content p {
+    color: white;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    text-rendering: auto;
+    margin-left: 3rem;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+    
+.button-white, .button-black {
+    width: 20rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: none;
+    text-align: center;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 16px;
+}
+
+.button-black {
+    background-color: black;
+    color: white;
+}
+
+.button-white {
+    background-color: white;
+    color: black;
+}
+    
