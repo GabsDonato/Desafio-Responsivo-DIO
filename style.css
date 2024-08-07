@@ -75,7 +75,7 @@ body {
     grid-area: Section-1;
 }
 
-.Section1 , .Section2 , .Section3 , .Section4 img {
+.Section1 , .Section2 , .Section3 , img {
     margin-top: 1rem;
     margin-left: 1rem;
 }
@@ -118,5 +118,47 @@ body {
     margin-top: 2rem;
 }
 
+.Section3 {
+    background-color: white;
+    grid-area: Section-3;
+}
 
-    
+.Section3 h1 {
+    text-align: left;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #23272A;
+}
+
+.Section3 p {
+    color: #23272A;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.Section4 {
+    background-color: #f6f6f6;
+    grid-area: Section-4;
+}
+
+.Section4 img {
+    position: absolute;
+    margin-top: 1rem;
+}
+
+.Section4 h1 {
+    padding: 1rem;
+    margin-left: 1rem;
+    text-align: left;
+    color: #23272A;
+}
+
+.Section4 p {
+   color: #23272A;
+   text-align: left;
+   margin-left: 2rem ;
+}
