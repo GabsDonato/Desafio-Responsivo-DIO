@@ -2,7 +2,7 @@
 
 body {
     display: grid;
-    grid-template-rows: repeat(5, 400px) 100px;
+    grid-template-rows: repeat(5, 500px) 100px;
     grid-template-areas:
     "Header-content" 
     "Section-1" 
@@ -12,3 +12,19 @@ body {
     "footer";
 }
 
+.Header-content h1 {
+   font-family: "Luckiest Guy";
+   text-align: left;
+   font-size: 32px;
+   margin-top: -28rem;
+   padding: 9px;
+   color: white;
+   font-weight: bold;
+}
+
+.Header-content img {
+    width: 26.7rem;
+    height: 32.5rem;
+    margin-left: -1rem;
+    margin-top: -1rem;
+}
