@@ -2,7 +2,7 @@
 
 body {
     display: grid;
-    grid-template-rows: repeat(5, 500px) 100px;
+    grid-template-rows: repeat(5, 480px) 100px;
     grid-template-areas:
     "Header-content" 
     "Section-1" 
@@ -12,28 +12,17 @@ body {
     "footer";
 }
 
-.Header-content{
+.Header-content {
     grid-area: Header-content;
 }
 
-.Header-content h1 {
-   font-family: "Luckiest Guy";
-   text-align: left;
-   font-size: 32px;
-   margin-top: -28rem;
-   margin-left: 3rem;
+.titulo {
    color: white;
-   font-weight: bold;
+   margin-left: 3rem;
+   
 }
 
-.Header-content img {
-    width: 26.7rem;
-    height: 32.5rem;
-    margin-left: -1rem;
-    margin-top: -1rem;
-}
-
-.Header-content p {
+.subtitulo {
     color: white;
     font-family: "Open Sans";
     font-size: 16px;
@@ -43,10 +32,19 @@ body {
     margin-left: 3rem;
 }
 
+.Header-content {
+   background-image: url(./assets/img/Header\ Background.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+
+
 .button-container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.5rem;
 }
     
 .button-white, .button-black {
@@ -56,7 +54,7 @@ body {
     border: none;
     text-align: center;
     margin-left: 2rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     font-size: 16px;
     cursor: pointer;
 }
@@ -177,7 +175,52 @@ footer h1 {
 }
 
 footer {
-    width: 27rem;
+    width: 30rem;
     grid-area: footer ;
     background-color: #23272A;
 }
+
+@media screen and (min-width:500px) and (max-width: 5580px) {
+    body {
+        grid-template-rows: repeat(5, 500px) 100px;
+        grid-template-areas:
+        "Header-content" 
+        "Section-1" 
+        "Section-2"  
+        "Section-3" 
+        "Section-4" 
+        "footer";
+    }
+    
+    .Header-content {
+        background-image: url(./assets/img/Header\ Background\ \(1\).png);
+        background-repeat: no-repeat;
+        margin-top:  -3rem;
+        margin-left: -3rem;
+        margin-right: -0.5rem;
+    }
+
+    .titulo  {
+        font-size: 36px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 8rem;
+    }
+    .subtitulo {
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .button-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    
+}
+
