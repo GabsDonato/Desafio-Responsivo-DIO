@@ -306,5 +306,28 @@ footer {
         margin-top: 17rem;
 
     }
+
+    .Section4 {
+        grid-area: Section-4;
+    }
+    
+    .Section4 img {
+        position: absolute;
+        margin-top: -2rem;
+        margin-left: 31rem;
+        width: 25rem;
+    }
+    
+    .Section4 h1 {
+        padding: 1rem;
+        margin-left: 1rem;
+        text-align: center;
+        
+    }
+    
+    .Section4 p {
+       text-align: center;
+       margin-left: 2rem ;
+    }
 }
 
